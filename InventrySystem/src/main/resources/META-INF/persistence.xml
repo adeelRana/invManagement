@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.inventrysystem_InventrySystem_jar_1.0PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.ay.isystem.models.EntityBeans.ProductType</class>
+    <class>com.ay.isystem.models.EntityBeans.Register</class>
+    <class>com.ay.isystem.models.EntityBeans.Expenses</class>
+    <class>com.ay.isystem.models.EntityBeans.Users</class>
+    <class>com.ay.isystem.models.EntityBeans.Vendors</class>
+    <class>com.ay.isystem.models.EntityBeans.Vehicle</class>
+    <class>com.ay.isystem.models.EntityBeans.DealDetails</class>
+    <class>com.ay.isystem.models.EntityBeans.Deals</class>
+    <class>com.ay.isystem.models.EntityBeans.Location</class>
+    <class>com.ay.isystem.models.EntityBeans.PayableReceiveable</class>
+    <class>com.ay.isystem.models.EntityBeans.ManageAccount</class>
+    <class>com.ay.isystem.models.EntityBeans.Transaction</class>
+    <class>com.ay.isystem.models.EntityBeans.Description</class>
+    <class>com.ay.isystem.models.EntityBeans.Transactiontypes</class>
+    <class>com.ay.isystem.models.EntityBeans.License</class>
+    <class>com.ay.isystem.models.EntityBeans.Account</class>
+    <class>com.ay.isystem.models.EntityBeans.Products</class>
+    <class>com.ay.isystem.models.EntityBeans.ReportProdcts</class>
+    <class>com.ay.isystem.models.EntityBeans.Transactions</class>
+    <class>com.ay.isystem.models.EntityBeans.ProductsVehicles</class>
+    <class>com.ay.isystem.models.EntityBeans.MasterList</class>
+    <class>com.ay.isystem.models.EntityBeans.Province</class>
+    <class>com.ay.isystem.models.EntityBeans.City</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/inventry_system?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
